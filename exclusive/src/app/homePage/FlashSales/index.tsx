@@ -1,4 +1,5 @@
 "use client";
+
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProductCard from "../ProductCard";
 
@@ -22,7 +23,7 @@ export default function FlashSales() {
       discount: 35,
       rating: 4,
       reviewCount: 75,
-      image: "images/keyboard.png",
+      image: "/images/keyboard.png", 
     },
     {
       id: "3",
@@ -43,7 +44,7 @@ export default function FlashSales() {
       rating: 4.5,
       reviewCount: 99,
       image: "/images/chair.png",
-      colors: ["#ff0000", "#000000"]
+      colors: ["#ff0000", "#000000"],
     },
     {
       id: "5",
@@ -54,16 +55,16 @@ export default function FlashSales() {
       rating: 4.5,
       reviewCount: 99,
       image: "/images/chair.png",
-    }
+    },
   ];
 
   return (
     <section className="container mx-auto px-4 py-16">
       <div className="flex items-center gap-4 mb-5">
-        <div className="w-5 h-10 bg-red-500 rounded"></div>
-        <span className="text-red-500 font-semibold text-base">Today's</span>
+        <div className="w-5 h-10 bg-red-500 rounded" />
+        <span className="text-red-500 font-semibold text-base">Today&apos;s</span>
       </div>
-      
+
       <div className="flex items-end justify-between mb-10">
         <div className="flex items-end gap-20">
           <h2 className="text-4xl font-semibold text-black">Flash Sales</h2>
@@ -89,7 +90,7 @@ export default function FlashSales() {
             </div>
           </div>
         </div>
-        
+
         <div className="flex gap-2">
           <button className="w-11 h-11 bg-gray-100 rounded-full flex items-center justify-center hover:bg-red-500 hover:text-white transition-colors">
             <ChevronLeft className="w-6 h-6" />
