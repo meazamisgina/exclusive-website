@@ -35,7 +35,7 @@ export default function NewArrival() {
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />
             <div className="relative z-10 text-white">
-              <h3 className="text-xl font-semibold mb-2">Women's Collections</h3>
+              <h3 className="text-xl font-semibold mb-2">Women&apos;s Collections</h3>
               <p className="text-sm mb-4">Featured woman collections that <br/>give you another vibe.</p>
               <button className="underline underline-offset-4 font-medium hover:text-[#db4444] transition-colors">
                 Shop Now
